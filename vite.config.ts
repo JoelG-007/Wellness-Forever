@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react-swc';
 import path from 'path';
 
 export default defineConfig({
-  base: '/Wellness-Forever/',   // 21-11-2025 / 18.57
+  base: "/Wellness-Forever/",   // 21-11-2025 / 18.57
   plugins: [react()],
   resolve: {
     extensions: ['.js', '.jsx', '.ts', '.tsx', '.json'],
